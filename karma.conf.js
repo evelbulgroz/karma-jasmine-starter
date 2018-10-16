@@ -20,8 +20,10 @@ module.exports = function(config) {
 	  ],
 
 	  client: {
-		clearContext: false // leave Jasmine Spec Runner output visible in browser
-	  },
+		clearContext: false, // leave Jasmine Spec Runner output visible in browser
+		jasmine: {
+			random: false
+		},
 	  
 	  // list of files / patterns to load in the browser
 	  files: [
